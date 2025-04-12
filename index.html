@@ -40,7 +40,8 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
+
       <!-- Carousel -->
       <div class="container mt-1 d-none d-lg-block">
         
@@ -85,9 +86,9 @@
         
       </div>
 
-      <div class="container text-center mt-5">
+    <div class="container text-center mt-5">
 
-        <!-- Title and Subtitle -->
+        <!-- Title and Subtitle: Roteiros -->
         <div class="row">
           <div class="col">
             <div class="display-5">
@@ -123,8 +124,58 @@
           </div>
         </div>
 
-        
-        
+        <!-- Title and Subtitle: Acomodacoes -->
+        <div class="row mt-5">
+          <div class="col">
+            <div class="display-5">
+              Acomodações
+            </div>
+            Do luxo ao econômico!
+          </div>
+      </div>
+
+      <div class="col">
+        <ul class="nav nav-tabs" id="main-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="luxo-tab" data-bs-toggle="tab" data-bs-target="#luxo-tab-pane" type="button" role="tab" aria-controls="luxo-tab-pane" aria-selected="true">Luxo</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="executivo-tab" data-bs-toggle="tab" data-bs-target="#executivo-tab-pane" type="button" role="tab" aria-controls="executivo-tab-pane" aria-selected="false">Executivo</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="economico-tab" data-bs-toggle="tab" data-bs-target="#economico-tab-pane" type="button" role="tab" aria-controls="economico-tab-pane" aria-selected="false">Econômico</button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="luxo-tab-pane" role="tabpanel" aria-labelledby="luxo-tab" tabindex="0">
+            <div class="display-6">
+              O Máximo do Luxo
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum ex ullam quo! Distinctio cumque cupiditate, minus quaerat in unde.
+            </p>
+            <img src="images/room1.jpg" alt="luxo" class="shadow rounded img-fluid">
+          </div>
+          <div class="tab-pane fade" id="executivo-tab-pane" role="tabpanel" aria-labelledby="executivo-tab" tabindex="0">
+            <div class="display-5">
+              O Melhor custo benefício
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum ex ullam quo! Distinctio cumque cupiditate, minus quaerat in unde.
+            </p>
+            <img src="images/room2.jpg" alt="executivo" class="shadow rounded img-fluid">
+          </div>
+          <div class="tab-pane fade" id="economico-tab-pane" role="tabpanel" aria-labelledby="economico-tab" tabindex="0">
+            <div class="display-5">
+              Somente o essencial
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum ex ullam quo! Distinctio cumque cupiditate, minus quaerat in unde.
+            </p>
+            <img src="images/room3.jpg" alt="economico" class="shadow rounded img-fluid">
+          </div>
+        </div>
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
